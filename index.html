@@ -1,1 +1,52 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* --- Minimal styling, all inline so the page works without extra files --- */
+    body{
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, sans-serif;
+      margin:0 auto;
+      max-width:700px;
+      padding:2rem 1rem;
+      line-height:1.6;
+    }
+    img.profile{
+      display:block;
+      max-width:180px;
+      width:50%; /* scales nicely on mobile */
+      height:auto;
+      border-radius:50%;
+      margin:0 auto 1.5rem;
+    }
+    a{color:#0366d6;text-decoration:none;}
+    a:hover{text-decoration:underline;}
+  </style>
+</head>
+<body>
+
+  <!-- ===== Replace profile.jpg with your actual image file name ===== -->
+  <img src="profile.jpg" alt="Photo of Your Name" class="profile">
+
+  <h1>Your Name</h1>
+
+  <p>
+    Hello! I’m <strong>Your Name</strong>, <!-- short description below -->
+    a neuroscientist interested in neural representations, cognition, and machine learning.
+    This site is intentionally minimal—no JavaScript, frameworks, or trackers.
+  </p>
+
+  <!-- ===== Example links to documents that live in the same repository ===== -->
+  <ul>
+    <li><a href="cv.pdf">Curriculum Vitae (PDF)</a></li>
+    <li><a href="research_statement.pdf">Research Statement</a></li>
+    <li><a href="teaching_statement.pdf">Teaching Statement</a></li>
+  </ul>
+
+  <!-- ===== Contact (optional) ===== -->
+  <p>Contact: <a href="mailto:you@example.com">you@example.com</a></p>
+
+</body>
+</html>
